@@ -29,29 +29,29 @@ const Category = () => {
         modules={[Pagination]}
         className="mySwiper mb-24"
       >
-        <SwiperSlide>
+        <SwiperSlide className="mb-24">
           <img src={slide1} alt="slide1" />
           <h3 className="text-4xl text-center -mt-16 pb-4 text-white">
             SALADS
           </h3>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="mb-24">
           <img src={slide2} alt="slide2" />
           <h3 className="text-4xl text-center -mt-16 pb-4 text-white">
             PIZZAS
           </h3>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="mb-24">
           <img src={slide3} alt="slide3" />
           <h3 className="text-4xl text-center -mt-16 pb-4 text-white">SOUPS</h3>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="mb-24">
           <img src={slide4} alt="slide4" />
           <h3 className="text-4xl text-center -mt-16 pb-4 text-white">
             DESERTS
           </h3>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="mb-24">
           <img src={slide5} alt="slide5" />
           <h3 className="text-4xl text-center -mt-16 pb-4 text-white">
             SALADS
