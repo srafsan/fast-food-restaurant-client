@@ -11,6 +11,8 @@ import slide4 from "../../../assets/home/slide4.jpg";
 import slide5 from "../../../assets/home/slide5.jpg";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 
+import "./Category.css";
+
 const Category = () => {
   return (
     <section>
