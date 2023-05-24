@@ -4,7 +4,7 @@ import useMenu from "../../../hooks/useMenu";
 
 const PopularMenu = () => {
   const [menu] = useMenu();
-  const popular = menu.filter((item) => item.category === "popular");
+  const popular = menu.filter((item) => item.popular === "yes");
 
   return (
     <section className="flex flex-col items-center mb-12">
