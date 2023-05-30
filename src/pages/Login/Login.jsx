@@ -109,9 +109,10 @@ const Login = () => {
                   onBlur={handleValidateCaptcha}
                 />
               </div>
+              {/* //TODO: make button disabled for captcha */}
               <div className="form-control mt-6">
                 <input
-                  disabled={disabled}
+                  disabled={false}
                   type="submit"
                   value="Login"
                   className="btn btn-primary"
